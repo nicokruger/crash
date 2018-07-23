@@ -16,7 +16,7 @@
     "use strict";
     
     if(typeof define === "function" && define["amd"]) {
-        define(["RBush","SAT"], factory);
+        define(["rbush","sat"], factory);
     }
     else if(typeof exports === "object") {
         module.exports = factory(require("rbush"), require("sat"));
